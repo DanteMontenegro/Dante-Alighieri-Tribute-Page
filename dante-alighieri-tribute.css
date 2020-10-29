@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Khula:300);
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap);
+
+body {
+  background-color: #fbf7f0;
+  background: url(https://wallpapercave.com/wp/wp1873749.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+/*Divs*/
+#header-div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ba6e03;
+  background-color: transparent;
+  margin: 1.8% 2% 0% 4%;
+  padding: 0% 0% 0% 1.1%;
+  border-radius: 10%;
+}
+
+#title {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Julius Sans One', Sans-Serif;
+}
+
+#text {
+  padding: 0% 0% 0% 1.1%;
+}
+
+.text-img {
+  font-size: 40px;
+  position: relative;
+  padding: 0% 0% 0% 1.1%;
+  color: #ba6e03;
+  font-family: 'Amatic SC', Sans-serif;
+}
+
+
+#subquote {
+  font-size: 13px;
+  font-family: 'Sans-serif';
+}
+
+#img-div {
+  background-color: #fff5ea;
+  margin: 1.8% 2% 0.8% 4%;
+  overflow: hidden;
+  opacity: 0.95;
+  border-radius: 5%;
+}
+
+.rows {
+  display: flex;
+}
+
+.columns {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.footer {
+  background-color: #f4d9c6;
+  margin: 0.8% 2% 0% 4%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ba6e03;
+  padding: 0% 0% 0% 1%;
+  border-radius: 10%;
+  opacity: 0.95;
+}
+
+/*Texts*/
+
+h1 {
+    font-family: 'Julius Sans One', Sans-Serif;
+    font-size: 45px;
+    color: rgb(176, 69, 54);
+}
+
+.content {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ba6e03;
+    box-shadow: 0 0 2.5em rgba(252, 212, 156, 0.2);
+    margin: 0.8% 2% 0% 4%;
+    padding: 5% 5% 7% 5%;
+    background-color: #fcdada;
+    vertical-align: bottom;
+    border-radius: 3%;
+}
+
+li {
+  font-family: 'Khula', sans-serif;
+    list-style: none;
+    font-size: 18px;
+    color: #1c2b2d;
+    padding: 1% 1% 1% 0%;
+}
+
+#text-statue {
+ text-align: center;
+ padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Julius Sans One', Sans-Serif;
+    font-size: 25px;
+    color: #ba6e03;
+}
+
+h5 {
+    font-family: 'Julius Sans One', Sans-Serif;
+    color: #ba6e03;
+    text-align: center;
+}
+
+p {
+    font-family: 'Khula', sans-serif;
+    font-size: 18px;
+    color: #1c2b2d;
+    padding: 1% 1% 1% 0%;
+}
+
+.image-descript {
+  text-align: center;
+    font-family: 'Amatic SC', Sans-serif;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    font-size: 14px;
+    color: #ba6e03;
+}
+
+/*Images*/
+
+#dante-al {
+  margin: -50% 2% -1% 55%;
+}
+
+.dante-statue {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 60%;
+border-style: solid;
+border-width: 1px;
+border-color: #ba6e03;
+}
+
+#dante-picture {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+border-radius: 10%;
+}
+
+.dante-pictures {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 80%;
+border-style: solid;
+border-width: 2px;
+border-color: #ba6e03;
+}
+
+#dante-bust {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 5%;
+}
+
+#dante-bust:hover {
+  transform: scaleX(-1);
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ba6e03;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f1d4d4;
+}
