@@ -199,6 +199,7 @@ opacity: 1;
 
 #dante-bust:hover {
   transform: scaleX(-1);
+  cursor: pointer;
 }
 
 .text-dividers {
@@ -213,7 +214,7 @@ opacity: 1;
 }
 
 #second-divider {
-  max-width: 40%;
+  max-width: 35%;
 }
 /*Scrollbar*/
 
