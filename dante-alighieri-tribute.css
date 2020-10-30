@@ -180,10 +180,7 @@ transition: all .2s ease-in-out;
 
 .dante-pictures:hover
 {
-         box-shadow:
-                1px 1px #f1f1f1,
-                2px 2px #f1f1f1,
-                3px 3px #f1f1f1;
+        box-shadow: 0 0 1em #fcf876;
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
         transform: scale(1.1)
