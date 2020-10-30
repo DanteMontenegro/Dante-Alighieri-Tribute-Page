@@ -18,7 +18,7 @@ body {
   border-width: 1px;
   border-color: #ba6e03;
   background-color: transparent;
-  margin: 1% 15% 1% 15%;
+  margin: 1% 18% 1% 18%;
   padding: 0% 0% 0% 1.1%;
   border-radius: 10%;
 }
@@ -112,6 +112,10 @@ h2 {
     font-family: 'Julius Sans One', Sans-Serif;
     font-size: 25px;
     color: #ba6e03;
+}
+
+#special-h2 {
+  margin: 0% 0% 1.8% 0%;
 }
 
 h5 {
