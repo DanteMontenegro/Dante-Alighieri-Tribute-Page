@@ -79,10 +79,11 @@ h1 {
 }
 
 #subquote {
-  font-size: 12px;
-  padding: 0% 0% 0% 0.8%;
+  font-size: 80%;
+  padding: 0% 0% 0% 18%;
   color: #ba6e03;
   font-style: Sans-serif;
+  
 }
 
 .content {
