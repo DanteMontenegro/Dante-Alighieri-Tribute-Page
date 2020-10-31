@@ -18,7 +18,7 @@ body {
   border-width: 1px;
   border-color: #ba6e03;
   background-color: transparent;
-  margin: 1% 18% 1% 18%;
+  margin: 1% 25% 1% 25%;
   padding: 0% 0% 0% 1.1%;
   border-radius: 10%;
 }
@@ -33,23 +33,10 @@ body {
   padding: 0% 0% 0% 1.1%;
 }
 
-.text-img {
-  font-size: 40px;
-  position: relative;
-  padding: 0% 0% 0% 1.1%;
-  color: #ba6e03;
-  font-family: 'Amatic SC', Sans-serif;
-}
-
-
-#subquote {
-  font-size: 13px;
-  font-family: 'Sans-serif';
-}
-
 #img-div {
   background-color: #fff5ea;
   margin: 0% 5% 0.8% 5%;
+  padding: 0% 0% 4% 0%;
   overflow: hidden;
   opacity: 0.95;
   border-radius: 5%;
@@ -81,6 +68,21 @@ h1 {
     font-family: 'Julius Sans One', Sans-Serif;
     font-size: 45px;
     color: rgb(176, 69, 54);
+}
+
+.text-img {
+  font-size: 40px;
+  position: relative;
+  padding: 0% 0% 0% 1.1%;
+  color: #ba6e03;
+  font-family: 'Amatic SC', Sans-serif;
+}
+
+#subquote {
+  font-size: 12px;
+  padding: 0% 0% 0% 0.8%;
+  color: #ba6e03;
+  font-style: Sans-serif;
 }
 
 .content {
@@ -150,7 +152,7 @@ p {
 /*Images*/
 
 #dante-al {
-  margin: -50% 2% -1% 55%;
+  margin: -50% 2% -6% 55%;
 }
 
 .dante-statue {
