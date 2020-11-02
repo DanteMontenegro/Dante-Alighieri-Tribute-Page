@@ -40,6 +40,9 @@ body {
   overflow: hidden;
   opacity: 0.95;
   border-radius: 5%;
+  border-style: solid;
+  border-color: rgb(202, 181, 96);
+  border-width: 2px;
 }
 
 .rows {
