@@ -108,6 +108,10 @@ h1 {
   #subquote {
     display: none;
   }
+
+  #header-div {
+    margin: 1% 18% 1% 18%;
+  }
 }
 
 li {
