@@ -58,7 +58,7 @@ body {
 }
 
 #content1 {
-  padding: 5% 5% 5% 5%;
+  padding: 5% 5% 6% 5%;
 }
 
 .rows {
@@ -102,16 +102,6 @@ h1 {
   color: #ba6e03;
   font-family: 'Julius Sans One', Sans-serif;
   font-size: 15px;
-}
-
-@media only screen and (max-width: 414px) {
-  #subquote {
-    display: none;
-  }
-
-  #header-div {
-    margin: 1% 18% 1% 18%;
-  }
 }
 
 li {
