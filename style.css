@@ -104,9 +104,9 @@ h1 {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 414px) {
   #subquote {
-    font-size: 8px;
+    display: none;
   }
 }
 
