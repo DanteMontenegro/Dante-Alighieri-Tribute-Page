@@ -40,9 +40,6 @@ body {
   overflow: hidden;
   opacity: 0.95;
   border-radius: 5%;
-  border-style: solid;
-  border-color: rgb(202, 181, 96);
-  border-width: 2px;
 }
 
 .content {
@@ -102,16 +99,17 @@ h1 {
 }
 
 #subquote {
+  position: relative;
   padding: 0% 4% 0% 18%;
   color: #ba6e03;
-  font-family: 'Julius Sans One', Sans-serif;
-  font-size: 15px;
+  font-family: Sans-serif;
+  font-size: 12px;
 }
 
 li {
-  font-family: 'Khula', sans-serif;
+    font-family: 'Khula', sans-serif;
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
     color: #1c2b2d;
     padding: 1% 1% 1% 0%;
 }
@@ -138,8 +136,8 @@ h5 {
 }
 
 p {
-    font-family: 'Khula', sans-serif;
-    font-size: 18px;
+    font-family: 'Khula', Sans-serif;
+    font-size: 20px;
     color: #1c2b2d;
     padding: 1% 1% 1% 0%;
 }
@@ -155,8 +153,8 @@ p {
 
 .footer-text {
     text-align: center;
-    font-family: 'Khula', sans-serif;
-    font-size: 14px;
+    font-family: 'Khula', Sans-serif;
+    font-size: 16px;
     color: #ba6e03;
 }
 
@@ -241,7 +239,7 @@ opacity: 1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ba6e03;
+  background: gold;
 }
 
 ::-webkit-scrollbar-thumb:hover {
