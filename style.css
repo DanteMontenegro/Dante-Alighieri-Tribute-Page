@@ -49,7 +49,7 @@ body {
   box-shadow: 0 0 2.5em rgba(252, 212, 156, 0.2);
   margin: 0.8% 2% 0% 2%;
   padding: 5% 5% 3% 5%;
-  background-color: #ffd5cd;
+  background-color: #ebcfc4;
   vertical-align: bottom;
   border-radius: 3%;
 }
@@ -235,13 +235,13 @@ opacity: 1;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ba6e03;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: gold;
+  background: #ffd5cd;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #f1d4d4;
+  background: #ba6e03;
 }
