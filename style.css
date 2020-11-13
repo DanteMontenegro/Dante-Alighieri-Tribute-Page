@@ -18,13 +18,13 @@ body {
   border-width: 1px;
   border-color: #ba6e03;
   background-color: transparent;
-  margin: 1% 22.5% 1% 22.5%;
+  margin: 1% 23.5% 1% 23.5%;
   padding: 0% 0% 0% 1.1%;
   border-radius: 10%;
 }
 
 #title {
-  font-size: 30px;
+  font-size: 25.75px;
   text-align: center;
   font-family: 'Julius Sans One', Sans-Serif;
 }
@@ -35,7 +35,7 @@ body {
 
 #img-div {
   background-color: #fff5ea;
-  margin: 0% 5% 0.8% 5%;
+  margin: 2% 6% 2% 6%;
   padding: 0% 0% 4% 0%;
   overflow: hidden;
   opacity: 0.95;
@@ -47,7 +47,7 @@ body {
   border-width: 1px;
   border-color: #ba6e03;
   box-shadow: 0 0 2.5em rgba(252, 212, 156, 0.2);
-  margin: 0.8% 2% 0% 2%;
+  margin: 2% 2% 2% 2%;
   padding: 5% 5% 3% 5%;
   background-color: #ebcfc4;
   vertical-align: bottom;
@@ -86,7 +86,7 @@ body {
 
 h1 {
     font-family: 'Julius Sans One', Sans-Serif;
-    font-size: 45px;
+    font-size: 35px;
     color: rgb(176, 69, 54);
 }
 
@@ -103,7 +103,7 @@ h1 {
   padding: 0% 4% 0% 18%;
   color: #ba6e03;
   font-family: Sans-serif;
-  font-size: 12px;
+  font-size: 15.5px;
 }
 
 li {
@@ -133,6 +133,7 @@ h5 {
     font-family: 'Julius Sans One', Sans-Serif;
     color: #ba6e03;
     text-align: center;
+    font-size: 25px;
 }
 
 p {
@@ -154,7 +155,7 @@ p {
 .footer-text {
     text-align: center;
     font-family: 'Khula', Sans-serif;
-    font-size: 17.5px;
+    font-size: 18px;
     color: #ba6e03;
 }
 
@@ -162,52 +163,42 @@ p {
 
 #dante-al {
   margin: -50% 2% -6% 55%;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
 .dante-statue {
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 60%;
+width: 100%;
+max-width: 250px;
+height: auto;
 border-style: solid;
 border-width: 1px;
 border-color: #ba6e03;
-}
-
-#dante-picture {
-display: block;
-margin-left: auto;
-margin-right: auto;
-max-width: 100%;
-border-radius: 10%;
 }
 
 .dante-pictures {
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 80%;
+width: 100%;
+max-width: 350px;
+height: auto;
 border-style: solid;
 border-width: 2px;
 border-color: #ba6e03;
 transition: all .2s ease-in-out;
 }
 
-.dante-pictures:hover
-{
-  box-shadow:
-  1px 1px #f5d6aa,
-  2px 2px #f5d6aa,
-  3px 3px #f5d6aa;
--webkit-transform: translateX(-6px);
-transform: translateX(-8px);
-}
-
 #dante-bust {
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 5%;
+width: 50%;
+max-width: 75px;
 opacity: 1;
 }
 
@@ -224,11 +215,15 @@ opacity: 1;
 }
 
 #first-divider {
-  max-width: 35%;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
 }
 
 #second-divider {
-  max-width: 35%;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
 }
 /*Scrollbar*/
 
