@@ -105,7 +105,7 @@ h1 {
   padding: 0% 4% 0% 18%;
   color: #ba6e03;
   font-family: Sans-serif;
-  font-size: 15.5px;
+  font-size: 112.5%;
 }
 
 li {
@@ -174,8 +174,7 @@ p {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 100%;
-max-width: 250px;
+max-width: 50%;
 height: auto;
 border-style: solid;
 border-width: 1px;
@@ -186,9 +185,7 @@ border-color: #ba6e03;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 100%;
-max-width: 350px;
-height: auto;
+max-width: 80%;
 border-style: solid;
 border-width: 2px;
 border-color: #ba6e03;
