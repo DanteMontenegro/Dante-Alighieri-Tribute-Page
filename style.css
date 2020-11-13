@@ -18,13 +18,13 @@ body {
   border-width: 1px;
   border-color: #ba6e03;
   background-color: transparent;
-  margin: 1% 23.5% 1% 23.5%;
-  padding: 0% 0% 0% 1.1%;
+  margin: 1.5% 23.5% 1.25% 23.5%;
+  padding: 0.25% 0% 0.25% 0%;
   border-radius: 10%;
 }
 
 #title {
-  font-size: 25.75px;
+  font-size: 28px;
   text-align: center;
   font-family: 'Julius Sans One', Sans-Serif;
 }
@@ -133,7 +133,7 @@ h5 {
     font-family: 'Julius Sans One', Sans-Serif;
     color: #ba6e03;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p {
