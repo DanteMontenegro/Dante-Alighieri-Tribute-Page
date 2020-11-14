@@ -36,7 +36,7 @@ body {
 }
 
 #img-div {
-  background-color: #ebcfc4;
+  background-color: #fff5ea;
   margin: 2% 9% 2% 9%;
   padding: 0% 0% 4% 0%;
   overflow: hidden;
@@ -91,16 +91,16 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: #ba6e03;
-  background-color: transparent;
+  background-color:#ebcfc4;
   border-radius: 10%;
   text-align: center;
   justify-content: space-between;
-  transition: all 0.5s ease;
   margin: 1% 12% 1% 12%;
+  display:none;
 }
 
 .columns1:hover {
-  background-color: #ebcfc4;
+  color:#fff5ea;
   cursor: pointer;
 }
 
