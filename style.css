@@ -27,7 +27,7 @@ body {
 #title {
   font-size: 35px;
   text-align: center;
-  font-family: 'CoventryGardenNF', Sans-serif;
+  font-family: 'CoventryGardenNF', Arial;
   font-weight: lighter;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 #img-div {
-  background-color: #fff5ea;
+  background-color: #ebcfc4;
   margin: 2% 6% 2% 6%;
   padding: 0% 0% 4% 0%;
   overflow: hidden;
