@@ -25,7 +25,7 @@ body {
 }
 
 #title {
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
   font-family: 'CoventryGardenNF', Arial;
   font-weight: lighter;
@@ -36,11 +36,10 @@ body {
 }
 
 #img-div {
-  background-color: #fff5ea;
+  background: linear-gradient(#ebcfc4, #b19266);
   margin: 2% 9% 2% 9%;
-  padding: 0% 0% 4% 0%;
+  padding: 8% 0% 4% 0%;
   overflow: hidden;
-  opacity: 0.95;
   border-radius: 5%;
   border-style: solid;
   border-width: 1px;
@@ -54,7 +53,7 @@ body {
   box-shadow: 0 0 2.5em rgba(252, 212, 156, 0.2);
   margin: 2% 2% 2% 2%;
   padding: 5% 5% 3% 5%;
-  background-color: #ebcfc4;
+  background: linear-gradient(#ebcfc4, rgb(252, 201, 195));
   vertical-align: bottom;
   border-radius: 3%;
 }
@@ -88,20 +87,10 @@ body {
 .columns1 {
   flex: 20%;
   padding: 1px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ba6e03;
-  background-color:#ebcfc4;
   border-radius: 10%;
   text-align: center;
   justify-content: space-between;
-  margin: 1% 12% 1% 12%;
-  display:none;
-}
-
-.columns1:hover {
-  color:#fff5ea;
-  cursor: pointer;
+  margin: -1% 12% -1% 12%;
 }
 
 .menu {
@@ -112,13 +101,17 @@ a {
   color: #ba6e03;
 }
 
+a:hover {
+  color:  #fcd195;
+}
+
 .footer {
-  background-color: #fff5ea;
+  background: linear-gradient(#ecbdac,  rgb(212, 202, 201));
   margin: 0.8% 5% 0% 5%;
   border-style: solid;
   border-width: 1px;
   border-color: #ba6e03;
-  padding: 0% 0% 0% 1%;
+  padding: 0% 0% 1.5% 1%;
   border-radius: 10%;
   opacity: 0.85;
 }
@@ -132,17 +125,17 @@ h1 {
 }
 
 .text-img {
-  font-size: 40px;
+  font-size:60px;
   position: relative;
   padding: 0% 0% 0% 1.1%;
-  color: #ba6e03;
+  color: #754a0e;;
   font-family: 'Amatic SC', Sans-serif;
 }
 
 #subquote {
   position: relative;
   padding: 0% 4% 0% 18%;
-  color: #ba6e03;
+  color:#754a0e;
   font-family: Sans-serif;
   font-size: 112.5%;
 }
@@ -150,9 +143,10 @@ h1 {
 li {
     font-family: 'Khula', sans-serif;
     list-style: none;
-    font-size: 21px;
+    font-size: 27px;
     color: #1c2b2d;
-    padding: 1% 1% 1% 0%;
+    padding: 0.5% 1% 1% 0%;
+    font-weight: lighter;
 }
 
 #text-statue {
@@ -179,7 +173,8 @@ h5 {
 
 p {
     font-family: 'Khula', Sans-serif;
-    font-size: 21px;
+    font-size: 27px;
+    font-weight: lighter;
     color: #1c2b2d;
     padding: 0.5% 2% 0% 0%;
 }
@@ -197,15 +192,14 @@ p {
     text-align: center;
     font-family: 'Khula', Sans-serif;
     font-size: 18px;
-    color: #ba6e03;
 }
 
 /*Images*/
 
 #dante-al {
   margin: -50% 2% -6% 55%;
-  width: 100%;
-  max-width: 500px;
+  width: 200%;
+  max-width: 700px;
   height: auto;
   opacity: 1;
 }
@@ -248,18 +242,15 @@ opacity: 1;
 
 .text-dividers {
   display: block;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
     width: 100%;
   max-width: 450px;
   height: auto;
+  padding-bottom: -1000px;
 }
 
-#first-divider {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-}
 
 #second-divider {
   width: 100%;
@@ -269,17 +260,18 @@ opacity: 1;
 /*Scrollbar*/
 
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #ba6e03;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffd5cd;
+  background:#ba6e03;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ba6e03;
+  background: #fff7f5;
 }
