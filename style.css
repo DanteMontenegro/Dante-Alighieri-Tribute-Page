@@ -99,6 +99,7 @@ body {
 
 a {
   color: #ba6e03;
+  transition: all 0.7s ease;
 }
 
 a:hover {
